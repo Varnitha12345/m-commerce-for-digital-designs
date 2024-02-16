@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SingleViewActivity"
+    android:layout_alignParentLeft="true">
+
+    <ImageView
+        android:id="@+id/single_view_image"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:title="Single Design View" />
+
+    <TextView
+        android:id="@+id/single_view_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/alice"
+        android:text="Price : Rs. 1890/="
+        android:textColor="@color/gold"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/single_view_image" />
+
+    <LinearLayout
+        android:id="@+id/single_view_image2"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/single_view_image">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="35dp"
+            android:src="@drawable/rating_star" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="35dp"
+            android:src="@drawable/rating_star" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="35dp"
+            android:src="@drawable/rating_star" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="35dp"
+            android:src="@drawable/rating_star" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="35dp"
+            android:src="@drawable/rating_star" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/single_view_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/alice"
+        android:text="5.0"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/single_view_description"
+        app:layout_constraintEnd_toStartOf="@+id/single_view_image2" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/alice"
+        android:text="Description"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/single_view_image2" />
+
+    <TextView
+        android:id="@+id/single_view_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:fontFamily="@font/alice"
+        android:text="This was nice.wafawfawawcawwaff"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/add_to_cart"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/single_btn_bg"
+        android:text="Add To Cart"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/relativeLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SplashActivity"
+    android:background="@color/blue">
+
+    <ImageView
+        android:id="@+id/splash_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        />
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/spin_kit"
+        style="@style/SpinKitView.Small.CubeGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        app:SpinKit_Color="@color/black"
+        android:layout_marginBottom="100dp"
+        />
+
+    <Button
+        android:id="@+id/start_shopping_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="@color/light_blue"
+        android:text="Start Shopping"
+        android:textSize="20sp"
+        app:cornerRadius="10sp"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/sign_in_que"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="100dp"
+        android:text="@string/splash_que"
+        android:textColor="@color/white"
+        android:textSize="13sp"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/sign_in_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="70dp"
+        android:text="@string/splash_link"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        />
+
+</FrameLayout>

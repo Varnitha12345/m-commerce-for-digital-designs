@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/sideNavGroupMain">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/nav_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/nav_category"
+            android:title="@string/category"/>
+        <item
+            android:id="@+id/nav_new_designs"
+            android:icon="@drawable/nav_new_designs"
+            android:title="@string/new_designs"/>
+        <item
+            android:id="@+id/nav_offers"
+            android:icon="@drawable/nav_offers"
+            android:title="@string/offers"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/nav_settings"
+            android:title="@string/settings"/>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/nav_about"
+            android:title="@string/about"/>
+
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/sideNavGroupAuth">
+        <item android:id="@+id/nav_profile"
+            android:title="@string/profile"
+            android:icon="@drawable/nav_profile"
+            />
+        <item android:id="@+id/nav_cart"
+            android:title="@string/cart"
+            android:icon="@drawable/nav_cart"
+            />
+        <item android:id="@+id/nav_orders"
+            android:title="@string/orders"
+            android:icon="@drawable/nav_orders"
+            />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/nav_logout"
+            android:title="@string/logout"/>
+    </group>
+
+    <!--    <group android:checkableBehavior="single">-->
+    <!--        <item-->
+    <!--            android:id="@+id/nav_home"-->
+    <!--            android:icon="@drawable/ic_menu_camera"-->
+    <!--            android:title="@string/menu_home" />-->
+    <!--        <item-->
+    <!--            android:id="@+id/nav_gallery"-->
+    <!--            android:icon="@drawable/ic_menu_gallery"-->
+    <!--            android:title="@string/menu_gallery" />-->
+    <!--        <item-->
+    <!--            android:id="@+id/nav_slideshow"-->
+    <!--            android:icon="@drawable/ic_menu_slideshow"-->
+    <!--            android:title="@string/menu_slideshow" />-->
+    <!--    </group>-->
+</menu>
