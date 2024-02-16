@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "174467723203",
+    "project_id": "varan-designs-firebase-51b82",
+    "storage_bucket": "varan-designs-firebase-51b82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174467723203:android:49e29a90e22e1134369776",
+        "android_client_info": {
+          "package_name": "lk.jiat.app.varandesigns"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwIMRECPjIEP-dEYwLMqWOtMVb3Z0LKMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
