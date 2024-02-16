@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="lk.jiat.app.varandesigns.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="lk.jiat.app.varandesigns.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_category"
+        android:name="lk.jiat.app.varandesigns.ui.category.CategoryFragment"
+        android:label="@string/menu_category"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/nav_offers"
+        android:name="lk.jiat.app.varandesigns.OffersFragment"
+        android:label="@string/menu_offers"
+        tools:layout="@layout/fragment_offers" />
+    <fragment
+        android:id="@+id/nav_new_designs"
+        android:name="lk.jiat.app.varandesigns.NewDesignsFragment"
+        android:label="@string/menu_new_designs"
+        tools:layout="@layout/fragment_new_designs" />
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="lk.jiat.app.varandesigns.OrdersFragment"
+        android:label="@string/menu_orders"
+        tools:layout="@layout/fragment_orders" />
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="lk.jiat.app.varandesigns.CartFragment"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/fragment_cart" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="lk.jiat.app.varandesigns.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="lk.jiat.app.varandesigns.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+    <activity
+        android:id="@+id/viewAllActivity"
+        android:name="lk.jiat.app.varandesigns.activities.ViewAllActivity"
+        android:label="activity_view_all"
+        tools:layout="@layout/activity_view_all" />
+    <activity
+        android:id="@+id/nav_logout"
+        android:name="lk.jiat.app.varandesigns.activities.LogoutActivity"
+        android:label="fragment_logout"
+        tools:layout="@layout/activity_logout" />
+</navigation>
