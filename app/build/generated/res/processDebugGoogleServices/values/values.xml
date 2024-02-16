@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">174467723203</string>
+    <string name="google_api_key" translatable="false">AIzaSyDwIMRECPjIEP-dEYwLMqWOtMVb3Z0LKMI</string>
+    <string name="google_app_id" translatable="false">1:174467723203:android:49e29a90e22e1134369776</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDwIMRECPjIEP-dEYwLMqWOtMVb3Z0LKMI</string>
+    <string name="google_storage_bucket" translatable="false">varan-designs-firebase-51b82.appspot.com</string>
+    <string name="project_id" translatable="false">varan-designs-firebase-51b82</string>
+</resources>
